@@ -1,0 +1,137 @@
+<DOCTYPE! html>
+<html>
+<head>
+<title>hotel ZAIKA</title>
+
+<style>
+a
+{
+color:none;
+text-decoration:none;
+form='style.css'
+}
+</style>
+
+<script type = "text/javascript">
+         <!--
+            function success_message() {
+               alert ("Thank You For Your Feedback.It means alot!");
+               document.write ("Your Feedback is successfully saved.");
+            }
+         //-->
+      </script>
+<style>
+.btn {
+  background-color: #fff;
+  border: none;
+  color: #2210e6;
+  padding: 10px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+</style>
+</head>
+<body background="D:\website\image\pic8.jpg" link="000" alink="#017bf5" vlink="#000">
+
+<h3 align="center">
+<font face="Lato" size="6">JALSA</font>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;
+<font face="cinzel" size="4">
+<a href="webpage.html">HOME</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="index.html">LOGIN</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="customerregistratiokjhn.html">REGISTRATION</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="feedback.html">FEEDBACK</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="contact.html">CONTACT US</a>
+</font>
+</h3>
+
+<center>
+    <img src="D:\website\image\pic3.jpg" width="80" height="80"></center>
+<h1 style= "color:#800000"><center>JALSA</center></h1>
+<div class="imagebg"></div>
+<div class="row " style="margin-top: 50px">
+    <div class="col-md-6 col-md-offset-3 form-container">
+       <center><h2 style="color:#000">FEEDBACK</h2></center>
+       <center> <p style="color: white">
+            Please provide your feedback below:
+        </p></center>
+       <center> <form role="form" method="post" id="reused_form">
+            <div class="row">
+                <div class="col-sm-12 form-group">
+                <label style="color: white">How do you rate your overall experience?</label>
+                <p>
+                    <label class="radio-inline" style="color: white">
+                    <input type="radio" name="experience" id="radio_experience" value="bad" >
+                    Bad
+                    </label>
+
+                    <label class="radio-inline" style="color: white">
+                    <input type="radio" name="experience" id="radio_experience" value="average" style="color: white" >
+                    Average
+                    </label>
+
+                    <label class="radio-inline" style="color: white">
+                    <input type="radio" name="experience" id="radio_experience" value="good" style="color: white" >
+                    Good
+                    </label>
+                </p>
+            </div>
+            <div class="row">
+                <div class="col-sm-12 form-group">
+                    <label for="comments" style="color: white">
+                        Comments:</label>
+                    <textarea class="form-control" type="textarea" name="comments" id="comments" placeholder="Your Comments" maxlength="6000" rows="7"></textarea>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-6 form-group">
+                    <label for="name" style="color: white">
+                        Your Name:</label>
+                    <input type="text" class="form-control" id="name" name="name" required>
+                </div>
+                <div class="col-sm-6 form-group">
+                    <label for="email" style="color: white">
+                        Email:</label>
+                    <input type="email" class="form-control" id="email" name="email" required>
+                </div>
+            </div>
+
+                        <div class="row">
+                <div class="col-sm-12 form-group">
+                    <button type="submit" onclick="success_message();" class="btn" >Post </button>
+                </div>
+            </div>
+
+        </form></center>
+        <div id="success_message" style="width:100%; height:100%; display:none; ">
+            <h3 style="color: white">Posted your feedback successfully!</h3>
+        </div>
+        <div id="error_message"
+                style="width:100%; height:100%; display:none; ">
+                    <h3>Error</h3>
+                    Sorry there was an error sending your form.
+
+        </div>
+    </div>
+</div>
